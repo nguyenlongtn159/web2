@@ -6,7 +6,7 @@ class database{
 	
 	public function database(){
 		try{
-			$this->_dbh = new PDO('mysql:host=ec2-23-21-183-70.compute-1.amazonaws.com; dbname=d4nfnbvkepf913','cqhmnkgexntnvf','fY6QD7ZK3gUJS91QtpZTYJyfkY');
+			$this->_dbh = new PDO('mysql:host=mysql.hostinger.vn; dbname=u419595173_test','u419595173_test','khoviyeu25251325');
         //    $this->_dbh = new PDO('mysql:host=localhost; dbname=ql_nhan_vien','root','');
 			$this->_dbh->query('set names "utf8"');
 		}
