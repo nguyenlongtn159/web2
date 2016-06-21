@@ -1,0 +1,16 @@
+.empl_img{
+    width: 60px;
+    height: auto;
+}
+
+.empl_img_of_detail{
+    width: 200px;
+    height: auto;
+}
+
+#img_zone{
+    float: left;
+}
+
+#detail_zone{
+}
